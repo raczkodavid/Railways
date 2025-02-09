@@ -1,0 +1,182 @@
+body {
+  background-image: url(../../assets/images/background/menubackground.png);
+}
+
+#title {
+  width: 65vw;
+}
+
+.btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: solid 0.3rem #B5BEA3 !important;
+  padding: 0.1rem;
+}
+
+.btn:hover {
+  background-color: #29233B !important;
+  color: white !important;
+}
+
+.closeBtn {
+  background-color: #515169;
+  color: white;
+  height: 8vh;
+  width: 30%;
+  border-radius: 1rem;
+  border-color: #29233B !important;
+  font-size: 1.5rem;
+}
+
+#menuScreen, #gameScreen, #descriptionScreen, #leaderBoardScreen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#menuScreen {
+  @media (min-width: 992px) {
+    width: 70vw;
+  }
+
+  @media (min-width: 1200px) {
+    width: 60vw;
+  }
+
+  @media (min-width: 1400px) {
+    width: 55vw;
+  }
+}
+
+#usernameInput {
+  border: solid 0.3rem #DDC58E;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  height: 8vh;
+  font-size: 2.5rem;
+  background-color: white;
+  color: #DDC58E;
+}
+
+#difficultySection {
+  border: solid 0.3rem #B5BEA3;
+  color: #B5BEA3;
+  font-weight: bold;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  background-color: white;
+}
+
+#easyBtn, #hardBtn, #descriptionBtn, #startGameBtn, #menuLeaderboardBtn, #loadGameBtn {
+  border: solid 0.02rem #000;
+  border-radius: 1rem;
+  width: 100%;
+  height: 8vh;
+  font-size: 1.5rem;
+}
+
+#loadGameBtn {
+  background-color: #8888b1;
+  color: white;
+}
+
+#easyBtn {
+  background-color: white;
+  color: #B5BEA3;
+}
+
+#hardBtn, #descriptionBtn {
+  background-color: #EAEFD3;
+}
+
+#menuLeaderboardBtn {
+  background-color: #6b3d77;
+  color: white;
+}
+
+#descriptionBtn, #startGameBtn, #menuLeaderboardBtn, #loadGameBtn {
+  width: 93%;
+  height: 6vh;
+}
+
+#gameScreen {
+  display: none;
+  justify-content: center;
+  height: 100vh;
+  padding: 0;
+}
+
+#gameStatSection {
+  border: solid 0.3rem #DDC58E;
+  margin-top: 1.5rem;
+  border-radius: 1rem;
+  margin-right: 4rem;
+  padding: 1rem;
+}
+
+.regularText {
+  font-size: 2rem;
+  color: #515169;
+}
+
+.bigText {
+  font-size: 2.5rem;
+  color: #29233B;
+  font-weight: bold;
+}
+
+#gameBoard {
+  border: solid 1rem #783c07;
+  border-radius: 1rem;
+}
+
+.active {
+  color: white !important;
+  background-color: rgb(119, 94, 129) !important;
+}
+
+#descriptionScreen, #leaderBoardScreen {
+  display: none; 
+  padding: 0;
+  justify-content: center;
+  font-size: 1.25rem;
+  height: 100vh;
+}
+
+#descriptionScreen, #leaderBoardScreen {
+  @media (min-width: 992px) {
+    font-size: medium;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 1.10rem;
+  }
+
+  @media (min-width: 1400px) {
+    font-size: 1.25rem;
+  }
+}
+
+#innerDescription, #innerLeaderBoard {
+  background-color: white;
+  border: solid 0.3rem #DDC58E;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.table-container {
+  max-height: 45vh; 
+  overflow-y: auto; 
+  margin-top: 1rem;
+}
+
+.highlight {
+  background-color: #29233B !important;
+  color: white !important;
+}
+
+.d-flex[style*="display:none"], .d-flex[style*="display: none"] {
+  display: none !important;
+}
