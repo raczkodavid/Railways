@@ -1,5 +1,5 @@
 body {
-  background-image: url(../../assets/images/background/menubackground.png);
+  background-image: url(assets/images/background/menubackground.png);
 }
 
 #title {
@@ -9,12 +9,12 @@ body {
 .btn {
   font-size: 1.5rem;
   font-weight: bold;
-  border: solid 0.3rem #B5BEA3 !important;
+  border: solid 0.3rem #b5bea3 !important;
   padding: 0.1rem;
 }
 
 .btn:hover {
-  background-color: #29233B !important;
+  background-color: #29233b !important;
   color: white !important;
 }
 
@@ -24,11 +24,14 @@ body {
   height: 8vh;
   width: 30%;
   border-radius: 1rem;
-  border-color: #29233B !important;
+  border-color: #29233b !important;
   font-size: 1.5rem;
 }
 
-#menuScreen, #gameScreen, #descriptionScreen, #leaderBoardScreen {
+#menuScreen,
+#gameScreen,
+#descriptionScreen,
+#leaderBoardScreen {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -50,26 +53,31 @@ body {
 }
 
 #usernameInput {
-  border: solid 0.3rem #DDC58E;
+  border: solid 0.3rem #ddc58e;
   border-radius: 1rem;
   margin: 1rem;
   padding: 1rem;
   height: 8vh;
   font-size: 2.5rem;
   background-color: white;
-  color: #DDC58E;
+  color: #ddc58e;
 }
 
 #difficultySection {
-  border: solid 0.3rem #B5BEA3;
-  color: #B5BEA3;
+  border: solid 0.3rem #b5bea3;
+  color: #b5bea3;
   font-weight: bold;
   border-radius: 1rem;
   font-size: 1.5rem;
   background-color: white;
 }
 
-#easyBtn, #hardBtn, #descriptionBtn, #startGameBtn, #menuLeaderboardBtn, #loadGameBtn {
+#easyBtn,
+#hardBtn,
+#descriptionBtn,
+#startGameBtn,
+#menuLeaderboardBtn,
+#loadGameBtn {
   border: solid 0.02rem #000;
   border-radius: 1rem;
   width: 100%;
@@ -84,11 +92,12 @@ body {
 
 #easyBtn {
   background-color: white;
-  color: #B5BEA3;
+  color: #b5bea3;
 }
 
-#hardBtn, #descriptionBtn {
-  background-color: #EAEFD3;
+#hardBtn,
+#descriptionBtn {
+  background-color: #eaefd3;
 }
 
 #menuLeaderboardBtn {
@@ -96,7 +105,10 @@ body {
   color: white;
 }
 
-#descriptionBtn, #startGameBtn, #menuLeaderboardBtn, #loadGameBtn {
+#descriptionBtn,
+#startGameBtn,
+#menuLeaderboardBtn,
+#loadGameBtn {
   width: 93%;
   height: 6vh;
 }
@@ -109,7 +121,7 @@ body {
 }
 
 #gameStatSection {
-  border: solid 0.3rem #DDC58E;
+  border: solid 0.3rem #ddc58e;
   margin-top: 1.5rem;
   border-radius: 1rem;
   margin-right: 4rem;
@@ -123,7 +135,7 @@ body {
 
 .bigText {
   font-size: 2.5rem;
-  color: #29233B;
+  color: #29233b;
   font-weight: bold;
 }
 
@@ -137,21 +149,23 @@ body {
   background-color: rgb(119, 94, 129) !important;
 }
 
-#descriptionScreen, #leaderBoardScreen {
-  display: none; 
+#descriptionScreen,
+#leaderBoardScreen {
+  display: none;
   padding: 0;
   justify-content: center;
   font-size: 1.25rem;
   height: 100vh;
 }
 
-#descriptionScreen, #leaderBoardScreen {
+#descriptionScreen,
+#leaderBoardScreen {
   @media (min-width: 992px) {
     font-size: medium;
   }
 
   @media (min-width: 1200px) {
-    font-size: 1.10rem;
+    font-size: 1.1rem;
   }
 
   @media (min-width: 1400px) {
@@ -159,24 +173,26 @@ body {
   }
 }
 
-#innerDescription, #innerLeaderBoard {
+#innerDescription,
+#innerLeaderBoard {
   background-color: white;
-  border: solid 0.3rem #DDC58E;
+  border: solid 0.3rem #ddc58e;
   border-radius: 1rem;
   padding: 2rem;
 }
 
 .table-container {
-  max-height: 45vh; 
-  overflow-y: auto; 
+  max-height: 45vh;
+  overflow-y: auto;
   margin-top: 1rem;
 }
 
 .highlight {
-  background-color: #29233B !important;
+  background-color: #29233b !important;
   color: white !important;
 }
 
-.d-flex[style*="display:none"], .d-flex[style*="display: none"] {
+.d-flex[style*="display:none"],
+.d-flex[style*="display: none"] {
   display: none !important;
 }
