@@ -1,7 +1,7 @@
 import { RailType, TileType } from "./utils.js";
 
-const tileImageLocation = "/assets/images/tiles";
-const railImageLocation = "/assets/images/rails";
+const tileImageLocation = "assets/images/tiles";
+const railImageLocation = "assets/images/rails";
 
 export class Render {
   constructor(gameState) {
