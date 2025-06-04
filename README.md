@@ -64,7 +64,11 @@ This game is built with vanilla JavaScript using ES6 modules, HTML5, and CSS3. T
 
 The Railways game uses vanilla JavaScript with ES6 modules for clean code organization. The architecture separates game logic, rendering, and user interactions into distinct components.
 
-## 👨‍💻 Credit
+## 🧑‍💻 About
 
-- Developed by: Raczkó Dávid
-- Email: raczkodavid@gmail.com
+This project was created as an assignment for the Server-side Programming course at ELTE University.
+
+## Author
+
+- **Name**: Raczkó Dávid
+- **Email**: [raczkodavid@gmail.com](mailto:raczko.david@gmail.com)
