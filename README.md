@@ -64,6 +64,24 @@ This game is built with vanilla JavaScript using ES6 modules, HTML5, and CSS3. T
 
 The Railways game uses vanilla JavaScript with ES6 modules for clean code organization. The architecture separates game logic, rendering, and user interactions into distinct components.
 
+## 📸 Screenshots
+
+Here are some screenshots showcasing the most important parts of the Railways game:
+
+![Menu Screen](/screenshots/menu-screen.png)
+
+![Main Game Interface](/screenshots/game-easy.png)
+
+![Main Game Interface](/screenshots/game-hard.png)
+
+![Leaderboards](/screenshots/leaderboards.png)
+
+## 🌐 Live Demo
+
+The project is available online and can be tested at:
+
+**[https://railways-nine.vercel.app/](https://railways-nine.vercel.app/)**
+
 ## 🧑‍💻 About
 
 This project was created as an assignment for the Server-side Programming course at ELTE University.
