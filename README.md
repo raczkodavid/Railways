@@ -6,6 +6,12 @@ A train track building puzzle game where players construct a connected railway n
 
 Railways is a browser-based puzzle game where players must create a connected railway network on a grid-based map. The goal is to place tracks on every possible tile to form a complete circuit.
 
+## 🌐 Live Demo
+
+The project is available online and can be tested at:
+
+**[https://railways-nine.vercel.app/](https://railways-nine.vercel.app/)**
+
 ## ✨ Features
 
 - Two difficulty levels: Easy (5x5 grid) and Hard (7x7 grid)
@@ -75,12 +81,6 @@ Here are some screenshots showcasing the most important parts of the Railways ga
 ![Main Game Interface](/screenshots/game-hard.png)
 
 ![Leaderboards](/screenshots/leaderboards.png)
-
-## 🌐 Live Demo
-
-The project is available online and can be tested at:
-
-**[https://railways-nine.vercel.app/](https://railways-nine.vercel.app/)**
 
 ## 🧑‍💻 About
 
